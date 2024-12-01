@@ -2286,7 +2286,10 @@ input:-webkit-autofill:active {
   position: sticky;
   top: 60px;
 }
-
+.post-thumb-inner img {
+	height: 560px;
+	object-fit: cover;
+}
 @media (max-width: 1399px) {
   .blog-details-section .blog-details-img {
     height: 400px;
